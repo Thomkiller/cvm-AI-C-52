@@ -1,0 +1,82 @@
+UML
+unified modelling language
+outil de modélisation
+utilisation pictogramme
+14 diagrammes 
+on en voit 2
+diagramme des cas d'usages
+diagramme de classe
+
+
+Diagramme des cas d'usages
+user
+-----
+rôle
+
+cas d'usage
+
+user(acteur) représenter par un bonhomme alumette
+acteur différent utilisateur du logiciel
+cas d'usage représenter par des ellipses
+
+héritage
+permet d'éviter la répétition de code
+DRY
+Dont repeat yourself
+remplacer héritage par 'est un'
+Abstract
+abstraction = concept
+animal un concept mais un lapin est réel 
+UML non réserver a l'informatique
+
+diagramme de classe
+classe = rectangle divisé en trois partie
+-------------
+|NOM        | masquage
+|           | - privé
+|           | # protected
+|           | + public
+------------- tille package
+|Attribut   |
+|           |
+|           | Variable
+|           | 
+|           |
+|           |
+-------------
+|Opération  |
+|           | Fonction
+|           |
+|           |  dans opération +cool(a:int, b:int):int
+-------------
+
+
+
+
+paquet de balle a l'écran 3
+chaque balle a un poid et une vitesse
+balle se promène et rebondissent sur le bord
+n'intéragissent pas entre elle
+niveau deux: si on tient une flèche elle optient de la gravité et si on clique deux flèches 
+niveau trois: quand on clique sur space bar on enlève la gravité entre les balles
+
+
+numéro 1 : position et une vitesse
+position : x,y
+vitesse : x,y
+position temps1 = pt-1 + vt-1 * t
+
+
+numéro 2 : position, vitesse et accélération
+
+Cours de AI
+-----------------------------
+CALTAL
+-----------------------------
+Code a little test a little
+
+UMUD
+-----------------------------
+You must use debuger
+-éviter de faire des prints
+
